@@ -1,0 +1,299 @@
+body{
+    background-color:dodgerblue;
+    
+}
+    
+.header{
+    
+    width: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: inherit;
+    text-transform: capitalize;
+    overflow: auto;
+  background-color: blue;
+  
+    display: inline;
+}
+
+.images {
+    background-color: dodgerblue;
+    width:1000px;
+    margin:10px;
+    text-align: left;
+    line-height: 75px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+      justify-content: space-between;
+      align-content: space-between;
+      line-height: 75px;
+      gap:20px;
+
+    
+}
+.images2 {
+    background-color: dodgerblue;
+    width:1000px;
+    margin:10px;
+    line-height: 75px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-around;
+    line-height: 75px;
+    gap:20px;
+    
+} 
+  
+  .flex-container {
+    color:black;
+    font-weight: 600;
+    font-size:18px;
+    width:1200px;
+    height:600px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+
+  }
+
+
+  .flex-container > div{
+      margin:10px;
+      width:300px;
+      height: 200px;
+      padding:20px;
+      font-size:13px;
+   
+      display:flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      border-style:double;
+
+  }
+  
+   
+  
+  /*.flex-container  > div{
+      width:1000px;
+      margin:20px;
+      text-align: left;
+      line-height: 75px;
+      align-items: baseline;
+      justify-content: baseline;
+      align-content: space-between;
+
+  } */
+ 
+h2{
+    text-align: center;
+    font-weight: bold;
+    
+}
+p{
+    text-align: center;
+    font-weight: inherit;
+    font-size: 20px;
+    border: 100px 60px 40px 60px;
+    padding: 50px 30px;
+    margin: 40px;
+    text-transform: capitalize;
+    background-color: aquamarine;
+    color:black;
+}
+.system{
+    text-align: center;
+    font-weight: inherit;
+    font-size: 20px;
+    border: 100px 60px 40px 60px;
+    padding: 50px 30px;
+    margin: 40px;
+}
+
+.button{
+    background-color: green;
+    color:white;
+    border:1px solid green; 
+    padding:20px;
+    font-size:14px;
+    display: inline-block;
+  
+}
+.button:hover{
+    
+    color:black;
+}
+
+.header-right {
+    float: right;
+  }
+  .header-right:hover{
+      background-color: yellow;
+      color: black;
+      cursor:pointer;
+  }
+  .header-right:active{
+      background-color:green;
+      color:white;
+      cursor:pointer;
+  }
+#logo{
+    display:inline;
+    float: left;
+}
+.example::after{
+    content: "20 Years Experience in Swimming Pool, Products and Services";
+    position:absolute;
+    top:600px;
+    white-space: pre;
+    right: 50%;
+    transform: translateX(50%);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display:inline;
+    
+    
+}
+
+.text{
+    list-style-type: none;
+    border: 10px;
+    padding:20px;
+    margin:20px;
+    width: 200%;
+    background-color: transparent;
+    height: 20%;
+    position: absolute;
+    
+    float: left;
+}
+.text2{
+    list-style-type: none;
+    padding:60px;
+    border:100px;
+    margin:30px;
+   
+    background-color: transparent;
+    height: 40%;
+    position: relative;
+    float: right;
+}
+.text:active, .text2:active{
+    background-color: yellow;
+    color: black;
+}
+
+ li{
+    
+    color:white;
+    padding: 8px 8px;
+    margin: 9px 6px;
+    border: 100px;
+    text-decoration:none;
+    float: left;
+    display:inline-block;
+}  
+li:hover
+{
+    background-color: #555;
+    color:black;
+    
+}
+li:active{
+    background-color: #04AA6D ;
+    color: white;
+}
+.current{
+    background-color: indigo ;
+    color: black;
+}
+.data > div{
+    display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+   width:300px;
+   height:300px;
+    padding:5px;
+    margin:5px;
+    justify-content: space-between;
+    align-content: space-between;
+
+    
+}
+
+.data{
+    width:1200px;
+    height:500px;
+    padding:5px;
+    margin:5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.footer{
+    background-color: pink;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    display:inline;
+}
+.form1{
+    background-color: aqua;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    border: 50px;
+    padding:30px;
+    margin:10px;
+    position: relative;
+    float: left;
+}
+.button1{
+    background-color: green;
+    color:white;
+    border:3px solid green;
+    display: block;
+    padding:10px;
+    font-size:14px;
+}
+.footer-left{
+    background-color:blue;
+    float:left;
+    margin:40px;
+    border:100px;
+    padding:60px;
+    display:inline;
+    list-style-type: none;
+}
+/*.text-2{
+    background-color: blue;
+    float:right;
+    margin:40px;
+    padding:30px;
+    border: 70px;
+} */
+.map{
+    background-color: transparent;
+    float: right;
+
+}

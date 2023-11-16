@@ -1,0 +1,40 @@
+body{
+    background-color: dodgerblue;
+
+}
+.Form{
+    font-size:15px;
+    font-weight: bold;
+    padding:40px;
+    margin:30px;
+    display:inline;
+    text-transform: capitalize;
+    color:black;
+    width:1000px;
+    height: auto;
+    position: relative;
+}
+label{
+    color:white;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    border:50px;
+    padding:30px;
+    margin:20px;
+    text-transform: capitalize;
+    text-align: center;
+    position:relative;
+}
+.button:hover{
+    background-color: yellow;
+    color:black;
+    cursor:pointer;
+}
+.button:active{
+    background-color: red;
+    color:wheat;
+    cursor: pointer;
+}
